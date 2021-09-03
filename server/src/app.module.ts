@@ -4,7 +4,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
   imports: [FileModule,
-    MongooseModule.forRoot('mongodb+srv://admin:admin@cluster0.g0mfz.mongodb.net/testDatabase?retryWrites=true&w=majority')],
+    MongooseModule.forRoot('mongodb+srv')],
 
 })
 export class AppModule { }
